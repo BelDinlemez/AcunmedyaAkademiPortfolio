@@ -17,7 +17,7 @@
 </ul>
 <h2>🤍Proje Detayları</h2>
 
-<h3>★Ana Sayfa</h3>
+<h3>★ Ana Sayfa</h3>
 <img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/banner.png" alt="Banner Görseli" />
 <h3>★ Hakkımda</h3>
 <img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/about.png" alt="Hakkımda Görseli" />
