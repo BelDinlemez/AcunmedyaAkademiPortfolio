@@ -15,4 +15,27 @@
   <li><strong>Entity Framework Sorguları:</strong> Entity Framework kullanarak veritabanı sorgularının yönetimi.</li>
   <li><strong>Bootstrap Kullanımı:</strong> Sayfa düzeni ve stil yönetimi için Bootstrap framework'ü.</li>
 </ul>
-!(https://github.com/BelDinlemez/AcunmedyaAkademiPortfolio/readmeImg/about.png)
+<h3>🤍Ana Sayfa</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/banner.png" alt="Banner Görseli" />
+<h3>🤍Hakkımda</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/about.png" alt="Hakkımda Görseli" />
+<h3>🤍Özgeçmiş</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/resume.png" alt="Özgeçmiş Görseli" />
+<h3>🤍Sağlanan Hizmetler</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/service.png" alt="Servisler Görseli" />
+<h3>🤍Referanslar</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/portfolio.png" alt="Portfolyo Görseli" />
+<h3>🤍Referanslar</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/testimonials.png" alt="Referans Görseli" />
+<h3>🤍İletişim</h3>
+<img src="https://raw.githubusercontent.com/BelDinlemez/AcunmedyaAkademiPortfolio/main/readmeImg/contact.png" alt="İletişim Görseli" />
+
+
+
+
+
+
+
+
+
+
