@@ -1,0 +1,16 @@
+﻿
+@model List<AcunmedyaAkademiPortfolio.Models.TblEducation>
+<h3 class="resume-title">Eğitim</h3>
+@foreach (var item in Model)
+{
+
+
+<div class="resume-item">
+    <h5>@item.SchoolName</h5>
+    <h4>@item.Department</h4>
+    <h5>@item.StartYear-@item.EndYear</h5>
+    <p><em>İstanbul</em></p>
+  
+</div><!-- Edn Resume Item -->
+}
+

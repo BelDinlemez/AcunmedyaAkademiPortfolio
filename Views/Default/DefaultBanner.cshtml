@@ -1,0 +1,17 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblBanner>
+
+@foreach (var item in Model)
+{
+
+
+<section id="hero" class="hero section dark-background">
+
+    <img src="~/Templates/iPortfolio-1.0.0/assets/img/@item.ImageUrl" alt="" data-aos="fade-in" class="">
+
+    <div class="container" data-aos="fade-right" data-aos-delay="100">
+        <h1>BELİNAY DİNLEMEZ</h1>
+        <p><span class="typed" data-typed-items="@item.Tittle">@item.Tittle</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+    </div>
+
+</section>
+}

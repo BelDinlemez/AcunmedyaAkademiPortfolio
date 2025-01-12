@@ -1,0 +1,26 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblEducation
+@{
+    ViewBag.Title = "UpdateEducation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>Eğitim Güncelle</h2>
+
+<form method="post">
+
+    @Html.HiddenFor(x => x.EducationId)
+    <label>Bölüm</label>
+    @Html.TextBoxFor(x => x.Department, new { @class = "form-control" })
+
+    <label>Başlangıç Tarih</label>
+    @Html.TextBoxFor(x => x.StartYear, new { @class = "form-control" })
+
+    <label>Bitiş Tarihi</label>
+    @Html.TextBoxFor(x => x.EndYear, new { @class = "form-control" })
+
+    <label>Okul İsmi</label>
+    @Html.TextBoxFor(x => x.SchoolName, new { @class = "form-control" })
+
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>

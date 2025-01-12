@@ -1,0 +1,47 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblAbout
+@{
+    ViewBag.Title = "AddAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>Hakkında Ekle</h2>
+
+<form method="post">
+
+    <label>İsim</label>
+    @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.description, new { @class = "form-control" })
+
+    <label>Başlık</label>
+    @Html.TextBoxFor(x => x.title, new { @class = "form-control" })
+
+    <label>Doğum Günü</label>
+    @Html.TextBoxFor(x => x.birthday, new { @class = "form-control" })
+
+    <label>Telefon</label>
+    @Html.TextBoxFor(x => x.phone, new { @class = "form-control" })
+
+    <label>Şehir</label>
+    @Html.TextBoxFor(x => x.city, new { @class = "form-control" })
+
+    <label>Yaş</label>
+    @Html.TextBoxFor(x => x.age, new { @class = "form-control" })
+
+    <label>Derece</label>
+    @Html.TextBoxFor(x => x.degree, new { @class = "form-control" })
+
+    <label>E-posta</label>
+    @Html.TextBoxFor(x => x.email, new { @class = "form-control" })
+
+    <label>Freelance Durumu</label>
+    @Html.TextBoxFor(x => x.freelance, new { @class = "form-control" })
+
+    <label>Resim URL</label>
+    @Html.TextBoxFor(x => x.imgUrl, new { @class = "form-control" })
+
+    <button class="btn btn-info">Hakkında Kaydet</button>
+</form>
+

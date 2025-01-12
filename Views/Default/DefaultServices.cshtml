@@ -1,0 +1,33 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblService>
+<section id="services" class="services section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Hizmetler</h2>
+        <p>Yazılım geliştirme, web uygulamaları, API çözümleri ve veritabanı yönetimi gibi çeşitli hizmetler sunarak, iş süreçlerinizi dijital dünyada daha verimli hale getiriyoruz.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row gy-4">
+            @foreach (var item in Model)
+            {
+
+
+
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon flex-shrink-0"><i class="@item.logoUrl"></i></div>
+                <div>
+                    <h4 class="title"><a href=" " class="stretched-link">@item.title</a></h4>
+                    <p class="description">@item.description</p>
+                </div>
+            </div>
+            <!-- End Service Item -->
+            }
+            
+
+        </div>
+
+    </div>
+
+</section>

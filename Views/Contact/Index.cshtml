@@ -1,0 +1,36 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblContact>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>İletişim</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Adres</th>
+        <th>Email</th>
+        <th>Telefon</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td>@item.Adress</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+            <td><a href="/Contact/DeleteContact/@item.ContactId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Contact/UpdateContact/@item.ContactId" class="btn btn-success">Güncelle</a></td>
+
+        </tr>
+    }
+</table>
+<td><a href="/Contact/AddContact" class="btn btn-primary">Yeni İletişim Ekle</a></td>

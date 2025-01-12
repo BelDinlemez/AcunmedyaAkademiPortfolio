@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Belinay Dinlemez</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/sidebar-05/css/style.css">
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars"></i>
+                   
+                </button>
+            </div>
+            <div class="p-4">
+                <h1 class="btn-close-white">Belinay Dinlemez<span></span></h1>
+                <ul class="list-unstyled components mb-5">
+                    <li class="">
+                        <a href="~/Categories/Index"><span class="fa fa-home mr-3"></span> Kategoriler</a>
+                    </li>
+                    <li>
+                        <a href="~/Project/Index"><span class="fa fa-paper-plane mr-3"></span> Projelerim</a>
+                    </li>
+                    <li>
+                        <a href="~/About/Index"><span class="fa fa-image mr-3"></span> Hakkımda</a>
+                    </li>
+                    <li>
+                        <a href="~/Contact/Index"><span class="fa fa-phone mr-3"></span>  İletişim </a>
+                    </li>
+                    <li>
+                        <a href="~/Education/Index"><span class="fa fa-graduation-cap mr-3"></span> Eğitimlerim</a>
+                    </li>
+                    <li>
+                        <a href="~/Experience/Index"><span class="fa fa-suitcase mr-3"></span> Deneyimlerim</a>
+                    </li>
+                    <li>
+                        <a href="~/Message/Index"><span class="fa fa-comment mr-3"></span> Gelen Mesajlar</a>
+                    </li>
+                    <li>
+                        <a href="~/Skill/Index"><span class="fa fa-paper-plane mr-3"></span> Yeteneklerim</a>
+                    </li>
+                    <li>
+                        <a href="~/Testimonials/Index"><span class="fa fa-quote-left mr-3"></span> Referanslarım</a>
+                    </li>
+                    <li>
+                        <a href="~/Services/Index"><span class="fa fa-quote-left mr-3"></span> Servislerim</a>
+                    </li>
+                    <li>
+                        <a href="~/Default/Index" target="_blank"><span class="fa fa-quote-left mr-3 "></span> Siteye Git</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/sidebar-05/images/BelinayDinlemezCV.pdf")" download class=""><span class="fa fa-quote-left mr-3"></span> CV İndir</a>
+                   
+                    </li>
+                </ul>
+
+            
+
+                <div class="footer">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Tüm haklar saklıdır.| Belinay Dinlemez tarafından geliştirilmiştir. <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+           @RenderBody()
+        </div>
+    </div>
+
+    <script src="~/sidebar-05/js/jquery.min.js"></script>
+    <script src="~/sidebar-05/js/popper.js"></script>
+    <script src="~/sidebar-05/js/bootstrap.min.js"></script>
+    <script src="~/sidebar-05/js/main.js"></script>
+</body>
+</html>

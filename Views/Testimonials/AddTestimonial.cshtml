@@ -1,0 +1,30 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblTestimonial
+@{
+    ViewBag.Title = "AddTestimonial";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>Referans Ekle</h2>
+
+<form method="post">
+
+
+    <label>Referans İsmi</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+    <label>Referans Mesleği</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+
+    <label>Referans Yorumu</label>
+    @Html.TextBoxFor(x => x.Comment, new { @class = "form-control" })
+
+    <label>Görsel</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+
+
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+

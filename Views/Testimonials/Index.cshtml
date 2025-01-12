@@ -1,0 +1,43 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblTestimonial>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<h2>Referanslar</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Yetenek İsmi</th>
+        <th>Yetenek Oranı</th>
+
+        <th>Sil</th>
+        <th>Güncelle</th>
+
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@(++count)</td>
+            <td>@item.Name</td>
+            <td>@item.Title</td>
+            <td>@item.Comment</td>
+            <td>@item.ImageUrl</td>
+
+            <td><a href="/Testimonials/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Testimonials/UpdateTestimonial/@item.TestimonialId" class="btn btn-success">Güncelle</a></td>
+
+        </tr>
+    }
+</table>
+
+<a href="/Testimonials/AddTestimonial/" class="btn btn-primary">Yeni Referans Ekle</a>
+
+
+

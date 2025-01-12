@@ -1,0 +1,43 @@
+﻿@model List<AcunmedyaAkademiPortfolio.Models.TblService>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<h2>Servisler</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Servis İsmi</th>
+        <th>Açıklama</th>
+        <th>Logo</th>
+
+        <th>Sil</th>
+        <th>Güncelle</th>
+
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>@(++count)</td>
+            <td>@item.title</td>
+            <td>@item.description</td>
+            <td>@item.logoUrl</td>
+
+            <td><a href="/Services/DeleteService/@item.id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Services/UpdateService/@item.id" class="btn btn-success">Güncelle</a></td>
+
+        </tr>
+    }
+</table>
+
+<a href="/Services/AddService/" class="btn btn-primary">Yeni Servis Ekle</a>
+
+

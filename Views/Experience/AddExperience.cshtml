@@ -1,0 +1,31 @@
+﻿@model AcunmedyaAkademiPortfolio.Models.TblExperience
+@{
+    ViewBag.Title = "AddExperience";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<h2>Yeni Eğitim Ekle</h2>
+<form method="post">
+
+    <label>Deneyim Adı</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+
+    <label>Başlangıç Tarih</label>
+    @Html.TextBoxFor(x => x.StartYear, new { @class = "form-control" })
+
+    <label>Bitiş Tarihi</label>
+    @Html.TextBoxFor(x => x.EndYear, new { @class = "form-control" })
+
+    <label>Şirket İsmi</label>
+    @Html.TextBoxFor(x => x.Company, new { @class = "form-control" })
+
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+
+    <label>Şehir</label>
+    @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
