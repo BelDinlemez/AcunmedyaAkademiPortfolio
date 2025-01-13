@@ -1,6 +1,6 @@
 # AcunmedyaAkademiPortfolio
 <h1>🚀 Kişisel Portföy Sitesi</h1>
-<h4><p>Bu proje, Acun Medya Akademi ve öğretmenlerim Busenur Demirbaş ile Murat Yücedağ tarafından verilen ilk case ve projemdir. .NET MVC kullanılarak geliştirilmiş bir portföy sayfasıdır. Admin paneli üzerinden, sitede görüntülenmesi gereken tüm veriler için ekleme, silme ve güncelleme işlemleri gerçekleştirilebilmektedir. Arayüzdeki tüm içerikler, veritabanından dinamik olarak çekilmektedir.</p></h4>
+<h4><p>Bu proje, Acun Medya Akademi ve öğretmenlerim Erhan Gündüz ile Murat Yücedağ tarafından verilen ilk case ve projemdir. .NET MVC kullanılarak geliştirilmiş bir portföy sayfasıdır. Admin paneli üzerinden, sitede görüntülenmesi gereken tüm veriler için ekleme, silme ve güncelleme işlemleri gerçekleştirilebilmektedir. Arayüzdeki tüm içerikler, veritabanından dinamik olarak çekilmektedir.</p></h4>
 
 <h2>🤍 Projede Kullanılan Teknolojiler:</h2>
 <ul style="list-style-type: none;">
